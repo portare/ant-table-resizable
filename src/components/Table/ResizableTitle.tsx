@@ -10,7 +10,7 @@ export const ResizableTitle = (props: ResizableProps) => {
   return (
     <Resizable
       width={width}
-      height={0}
+      axis='x'
       onResize={onResize}
       onResizeStart={onResizeStart}
       onResizeStop={onResizeStop}
